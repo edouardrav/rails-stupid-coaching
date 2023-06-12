@@ -1,0 +1,19 @@
+<figure class="border-start border-4 ps-3">
+  <blockquote class="blockquote">
+    <p><%= @question %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    You
+  </figcaption>
+</figure>
+
+<figure class="border-start border-4 ps-3 bg-warning-subtle">
+  <blockquote class="blockquote">
+    <p><%= @answer %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Your coach
+  </figcaption>
+</figure>
+
+<%= link_to "Ask a new question", ask_path, class: "btn btn-success" %>
